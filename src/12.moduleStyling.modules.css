@@ -1,0 +1,4 @@
+.modulestyle{
+    color: red;/*it(module.css) is applied only imported in the local component otherwise it wont 
+    where as normal css work if u imported in the render page*/
+}

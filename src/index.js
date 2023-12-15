@@ -8,8 +8,11 @@ import ReactDOM from 'react-dom/client';
 // import ConditionalRendering from './8.ConditionalRendering';
 // import Greet from './3.Greet';
 // import players from './3.Greet'
-import Player from './3.Greet'
+// import Player from './3.Greet'
+// import Styling from './9.Styling';
+// import Inline from './11.Inline';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+document.title="hello"// we can change the title name by this method
 root.render(
   <div>
     {/* {<Greet id="1" name="KL Rahul" country="India" Role="Batter" />} */}
@@ -18,11 +21,15 @@ root.render(
        })
     } */}
     <></>
-    <Player></Player>
+    {/* <Player></Player> */}
     {/* <Counter></Counter> */}
     {/* <EventHandlerFunc></EventHandlerFunc> */}
     {/* <EventBinding></EventBinding> */}
     {/* <ConditionalRendering> </ConditionalRendering> */}
+    {/* <Styling cancolor={true}></Styling> */}
+
+    {/* <Inline></Inline> */}
+
         </div>
   
 );

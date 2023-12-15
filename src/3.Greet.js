@@ -9,7 +9,10 @@ const players = [{
   name: "M Pathirana",
   country: "Sri Lanka",
   role: "Bowler"
-}]
+  }]
+// let list = players.map(person => (//list rendering
+//   <h2>{person.name} .{person.country} .{ person.role}</h2>
+// ));
 export function Greet(props) {
     const {name , country , role } = props.person
   return (
@@ -20,11 +23,12 @@ export function Greet(props) {
 
 }
 export default function Player() {
-   return ( players.map((person) => {
+   return ( players.map((person) => {//used for the props method
     
           return <Greet person = {person} key = {person.id}></Greet>
    })
    )
+  //return(<>{ list}</>)// it is used for list rendering 
 }
    
 //  export default {Greet,Player}
