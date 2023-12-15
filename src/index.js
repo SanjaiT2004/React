@@ -1,23 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import Counter from './Counter';
-//import Greet from './Apple'
-//import EventHandler from './EventHandler';
-// import EventHandlerFunc from './EventHandlerFunc';
-// import EventBinding from './EventBinding';
-import ConditionalRendering from './ConditionalRendering';
+// import Counter from './4.Counter';
+//import Greet from './1.Apple'
+//import EventHandler from './6.EventHandler';
+// import EventHandlerFunc from './7.EventHandlerFunc';
+// import EventBinding from './5.EventBinding';
+// import ConditionalRendering from './8.ConditionalRendering';
+// import Greet from './3.Greet';
+// import players from './3.Greet'
+import Player from './3.Greet'
 const root = ReactDOM.createRoot(document.getElementById('root'));
-// const players = [{
-//   id : "2",
-//   name: "VKohli",
-//   country: "India",
-//   role : "Batter"
-// }, {
-//   id : "3",
-//   name: "M Pathirana",
-//   country: "Sri Lanka",
-//   role: "Bowler"
-// }]
 root.render(
   <div>
     {/* {<Greet id="1" name="KL Rahul" country="India" Role="Batter" />} */}
@@ -25,10 +17,12 @@ root.render(
       return <Greet person ={person} key = {person.id}></Greet>
        })
     } */}
+    <></>
+    <Player></Player>
     {/* <Counter></Counter> */}
     {/* <EventHandlerFunc></EventHandlerFunc> */}
     {/* <EventBinding></EventBinding> */}
-    <ConditionalRendering></ConditionalRendering>
+    {/* <ConditionalRendering> </ConditionalRendering> */}
         </div>
   
 );

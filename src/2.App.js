@@ -1,4 +1,4 @@
-import Greet from './Apple'
+import Greet from './1.Apple'
 import "bootstrap/dist/css/bootstrap.min.css"
 function App() {
   return (
