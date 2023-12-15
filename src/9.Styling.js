@@ -16,4 +16,4 @@ export default function Styling(props) {
             <h1 className={`${classname} fontstyle`}> Colored by Sanjai </h1>
     </div>
   )
-}
+}//
