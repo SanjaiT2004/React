@@ -11,6 +11,9 @@ import ReactDOM from 'react-dom/client';
 // import Player from './3.Greet'
 // import Styling from './9.Styling';
 // import Inline from './11.Inline';
+// import Counter from './React_Hooks/1.useHooks/Counter';
+// 
+import Counter from './React_Hooks/1.useHooks/Counter';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.title="hello"// we can change the title name by this method
 root.render(
@@ -29,6 +32,7 @@ root.render(
     {/* <Styling cancolor={true}></Styling> */}
 
     {/* <Inline></Inline> */}
+    <Counter></Counter>
 
         </div>
   
