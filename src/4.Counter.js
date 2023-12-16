@@ -17,7 +17,7 @@ class Counter extends Component {
         count : prevState.count +1
     }))
   }
-  incrementFive() {/*when u call the function multiple times these are bind together into single 
+  incrementFive() {/*when u call the function multiple times these(function calls) are bind together into single 
     to make the app runs fastly in js so we use prevState in above if you call it only once then you use the 10 th line func */ 
     
     this.increment()
@@ -27,10 +27,11 @@ class Counter extends Component {
     this.increment()
   
   }
-    render() {
+  render() {
+      const {count} = this.state
       return (
         < div >
-          <>count = { this.state.count}<p></p></>
+          <>count = { count}<p></p></>
         <button onClick={() => this.incrementFive()}> Increment </button>
       </div>
     )
