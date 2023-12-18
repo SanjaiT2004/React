@@ -12,8 +12,10 @@ import ReactDOM from 'react-dom/client';
 // import Styling from './9.Styling';
 // import Inline from './11.Inline';
 // import Counter from './React_Hooks/1.useHooks/Counter';
-// 
-import Counter from './React_Hooks/1.useHooks/Counter';
+// import Counter2 from './React_Hooks/Counter2';
+import UseHooks_Object from './React_Hooks/useHooks_Object';
+import UseHooksArray from './React_Hooks/UseHooksArray';
+//import useHooks_Object from './React_Hooks/useHooks_Object';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.title="hello"// we can change the title name by this method
 root.render(
@@ -23,17 +25,17 @@ root.render(
       return <Greet person ={person} key = {person.id}></Greet>
        })
     } */}
-    <></>
+
     {/* <Player></Player> */}
     {/* <Counter></Counter> */}
     {/* <EventHandlerFunc></EventHandlerFunc> */}
     {/* <EventBinding></EventBinding> */}
     {/* <ConditionalRendering> </ConditionalRendering> */}
     {/* <Styling cancolor={true}></Styling> */}
-
     {/* <Inline></Inline> */}
-    <Counter></Counter>
-
+    {/* <Counter2></Counter2> */}
+    {/* <UseHooks_Object></UseHooks_Object> */}
+    <UseHooksArray></UseHooksArray>
         </div>
   
 );
