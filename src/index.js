@@ -13,9 +13,15 @@ import ReactDOM from 'react-dom/client';
 // import Inline from './11.Inline';
 // import Counter from './React_Hooks/1.useHooks/Counter';
 // import Counter2 from './React_Hooks/Counter2';
-import UseHooks_Object from './React_Hooks/useHooks_Object';
-import UseHooksArray from './React_Hooks/UseHooksArray';
+// import UseHooks_Object from './React_Hooks/useHooks_Object';
+// import UseHooksArray from './React_Hooks/UseHooksArray';
 //import useHooks_Object from './React_Hooks/useHooks_Object';
+// import ChangeTitle from './React_Hooks/2.useEffectHooks/ChangeTitle';
+// import ChangeTitle2 from './React_Hooks/2.useEffectHooks/ChangeTitle2';
+// import MouseMove from './React_Hooks/2.useEffectHooks/MouseMove';
+// import RemoveMouseMove from './React_Hooks/2.useEffectHooks/RemoveMouseMove';
+import InervalEffect from './React_Hooks/2.useEffectHooks/IntervalEffect';
+import DataFetching from './React_Hooks/2.useEffectHooks/DataFetching';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.title="hello"// we can change the title name by this method
 root.render(
@@ -35,7 +41,13 @@ root.render(
     {/* <Inline></Inline> */}
     {/* <Counter2></Counter2> */}
     {/* <UseHooks_Object></UseHooks_Object> */}
-    <UseHooksArray></UseHooksArray>
+    {/* <UseHooksArray></UseHooksArray> */}
+    {/* <ChangeTitle></ChangeTitle> */}
+    {/* <ChangeTitle2></ChangeTitle2> */}
+    {/* <MouseMove></MouseMove> */}
+    {/* <RemoveMouseMove/> */}
+    {/* <InervalEffect/> */}
+    <DataFetching></DataFetching>
         </div>
   
 );
