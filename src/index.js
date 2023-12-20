@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import ContextProvider from './React_Hooks/3.useContext/ContextProvider';
 // import Counter from './4.Counter';
 //import Greet from './1.Apple'
 //import EventHandler from './6.EventHandler';
@@ -20,8 +21,8 @@ import ReactDOM from 'react-dom/client';
 // import ChangeTitle2 from './React_Hooks/2.useEffectHooks/ChangeTitle2';
 // import MouseMove from './React_Hooks/2.useEffectHooks/MouseMove';
 // import RemoveMouseMove from './React_Hooks/2.useEffectHooks/RemoveMouseMove';
-import InervalEffect from './React_Hooks/2.useEffectHooks/IntervalEffect';
-import DataFetching from './React_Hooks/2.useEffectHooks/DataFetching';
+// import InervalEffect from './React_Hooks/2.useEffectHooks/IntervalEffect';
+// import DataFetching from './React_Hooks/2.useEffectHooks/DataFetching';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.title="hello"// we can change the title name by this method
 root.render(
@@ -47,7 +48,8 @@ root.render(
     {/* <MouseMove></MouseMove> */}
     {/* <RemoveMouseMove/> */}
     {/* <InervalEffect/> */}
-    <DataFetching></DataFetching>
+    {/* <DataFetching></DataFetching> */}
+    <ContextProvider/>
         </div>
   
 );
