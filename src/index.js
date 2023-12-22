@@ -28,6 +28,7 @@ import ReactDOM from 'react-dom/client';
 // import UseReducerwithUseContext from './React_Hooks/4.useReducerHooks/UseReducerwithUseContext';
 // import DataFetchUsingUseReducerandUseEffect from './React_Hooks/4.useReducerHooks/DataFetchUsingUseReducerandUseEffect';
 import UseCallBack from './React_Hooks/5.useCallbackHooks/UseCallBack';
+import UseMemo from './React_Hooks/6.useMemoHook/UseMemo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.title="hello"// we can change the title name by this method
 root.render(
@@ -59,7 +60,8 @@ root.render(
     {/* <DoubleCounter></DoubleCounter> */}
     {/* <UseReducerwithUseContext/> */}
     {/* {DataFetchUsingUseReducerandUseEffect} */}
-    <UseCallBack/>
+    {/* <UseCallBack/> */}
+    <UseMemo/>
         </div>
   
 );
