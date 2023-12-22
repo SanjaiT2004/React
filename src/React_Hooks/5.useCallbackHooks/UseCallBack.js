@@ -8,7 +8,7 @@ function UseCallBack() {
     const [count, setCount] = useState(0)
     const increment = useCallback(() => {
         setCount(prevState => prevState + 1);
-    })
+    },[setCount])
   return (
       <div>
           Count - {count}
