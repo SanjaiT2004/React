@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ContextProvider from './React_Hooks/3.useContext/ContextProvider';
 // import Counter from './4.Counter';
 //import Greet from './1.Apple'
 //import EventHandler from './6.EventHandler';
@@ -23,6 +22,11 @@ import ContextProvider from './React_Hooks/3.useContext/ContextProvider';
 // import RemoveMouseMove from './React_Hooks/2.useEffectHooks/RemoveMouseMove';
 // import InervalEffect from './React_Hooks/2.useEffectHooks/IntervalEffect';
 // import DataFetching from './React_Hooks/2.useEffectHooks/DataFetching';
+// import ContextProvider from './React_Hooks/3.useContext/ContextProvider';
+// import Counter from './React_Hooks/4.useReducerHooks/Counter';
+import DoubleCounter from './React_Hooks/4.useReducerHooks/doubleCounter';
+import UseReducerwithUseContext from './React_Hooks/4.useReducerHooks/UseReducerwithUseContext';
+import DataFetchUsingUseReducerandUseEffect from './React_Hooks/4.useReducerHooks/DataFetchUsingUseReducerandUseEffect';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.title="hello"// we can change the title name by this method
 root.render(
@@ -49,7 +53,11 @@ root.render(
     {/* <RemoveMouseMove/> */}
     {/* <InervalEffect/> */}
     {/* <DataFetching></DataFetching> */}
-    <ContextProvider/>
+    {/* <ContextProvider/> */}
+    {/* <Counter></Counter> */}
+    {/* <DoubleCounter></DoubleCounter> */}
+    {/* <UseReducerwithUseContext/> */}
+    {/* {DataFetchUsingUseReducerandUseEffect} */}
         </div>
   
 );
